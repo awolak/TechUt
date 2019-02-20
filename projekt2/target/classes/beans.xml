@@ -19,7 +19,7 @@
 		configure as beans
 	-->
 	<context:component-scan
-		base-package="ug.aleksanderszewczak.techut.zad02.service" />
+		base-package="ug.awolak.techut.zad04.service" />
  	
 	<bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 	destroy-method="close">
@@ -45,7 +45,7 @@
         <prop key="hibernate.show_sql">true</prop>
 			</props>
 		</property>
-		<property name="packagesToScan" value="ug.aleksanderszewczak.techut.zad02.domain" />
+		<property name="packagesToScan" value="ug.awolak.techut.zad04.domain" />
 	</bean>
 
 	<bean id="txManager"
